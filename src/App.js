@@ -1,15 +1,11 @@
-import React, {useEffect, useState} from "react";
-import axios from "axios";
+import React from "react";
+import ExpenseItems from "./components/ExpenseItems";
 
-// "https://randomuser.me/api/?results=20"  
-
-
-export default function App() {
-  
+export default function App() {   
   return (
     <div className="App">
-
       <h1>Hello world</h1>
+      <ExpenseItems/>
     </div>
   );
 }
